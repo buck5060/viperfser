@@ -31,6 +31,6 @@ topology_template:
           xproto: ./
           synchronizer: synchronizer/manifest
           synchronizer_run: viperfser-synchronizer.py
-          private_key: file:///opt/xos/key_import/mcord_rsa
-          public_key: file:///opt/xos/key_import/mcord_rsa.pub
+          private_key: file:///opt/xos/key_import/ecord_rsa
+          public_key: file:///opt/xos/key_import/ecord_rsa.pub
 
