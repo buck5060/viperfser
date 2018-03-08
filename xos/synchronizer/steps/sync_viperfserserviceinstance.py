@@ -32,7 +32,7 @@ class SyncVIPSServiceInstance(SyncInstanceUsingAnsible):
 
     template_name = "viperfserserviceinstance_playbook.yaml"
 
-    service_key_name = "/opt/xos/synchronizers/mcord/mcord_private_key"
+    service_key_name = "/opt/xos/synchronizers/ecord/ecord_private_key"
 
     def __init__(self, *args, **kwargs):
         super(SyncVIPSServiceInstance, self).__init__(*args, **kwargs)
